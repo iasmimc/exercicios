@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Conceitos Básicos</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            margin: 20px;
+        }
+    </style>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>HTML - Conceitos Básicos</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="javascript:void(0);" onclick="scrollToSection('primeirosPassos')">Primeiros Passos com HTML</a></li>
+            <li><a href="javascript:void(0);" onclick="scrollToSection('conceitosBasicos')">HTML 1 - Conceitos Básicos</a></li>
+            <li><a href="javascript:void(0);" onclick="scrollToSection('ampliandoConhecimento')">HTML 2 - Ampliando Conhecimento</a></li>
+        </ul>
+    </nav>
+
+    <section id="primeirosPassos">
+        <h2>Primeiros Passos com HTML</h2>
+        <p>Nesta seção, exploraremos os conceitos fundamentais do HTML.</p>
+       <h3>Introdução ao HTML:</h3>
+
+            <br>  
+               <strong>1. Introdução ao HTML:</strong> </br>
+                HTML, ou Hypertext Markup Language, é a linguagem fundamental para criar páginas web. Ele fornece a estrutura básica para apresentar conteúdo na internet. Um documento HTML é composto por elementos marcados por tags, indicando como o conteúdo deve ser estruturado e exibido.</br></br>
+                
+               <strong>2. Tags HTML e Atributos:</strong> 
+                As tags HTML são elementos fundamentais para estruturar o conteúdo. Elas envolvem diferentes partes do texto e fornecem instruções sobre como exibi-las. Atributos são informações adicionais que podem ser adicionadas às tags para modificar seu comportamento ou aparência.</br></br>
+                
+               <strong> 3. Listas, Links e Imagens:</strong></br>
+                Listas ordenadas <  ol > e não ordenadas < ul > são usadas para estruturar informações em forma de lista, enquanto a tag < li > representa cada item da lista. A tag < a > é utilizada para criar links, e < img > para inserir imagens em uma página, sendo essencial especificar atributos como src para a localização da imagem e alt para descrição.</br></br>
+                
+                <strong>4. Formulários:</strong></br>
+                Formulários HTML permitem a interação do usuário, sendo composto por tags como < form >, < input >, e < label >. Atributos como action e method no elemento < form > definem para onde os dados serão enviados e como. Elementos < input > podem ser usados para coletar diferentes tipos de dados.</br></br>
+                
+                <strong>5. Estrutura Semântica:</strong></br>
+                Para melhorar a semântica do documento, são introduzidas tags como < header >, < nav >, < article >, e < footer >. Elas ajudam a estruturar o conteúdo de maneira mais significativa, facilitando a compreensão tanto para os desenvolvedores quanto para os motores de busca.</br></br>
+                
+               <strong>6. Validação e Boas Práticas:</strong> </br>
+                A validação do código HTML é crucial para garantir que ele esteja de acordo com os padrões estabelecidos. Boas práticas incluem o uso consistente de indentação, comentários claros, e a escolha cuidadosa de nomes para classes e IDs, tornando o código mais legível e fácil de manter.< /p ></br>
+                <p> <br/>
+
+
+                    <section id="conceitosBasicos">
+                        <h2>HTML 1 - Conceitos Básicos</h2>
+                        <p>Nesta seção, abordaremos os conceitos essenciais do HTML.</p>
+         
+                    <strong>1. Estrutura Básica:</strong>
+                    
+                    Todo documento HTML possui uma estrutura básica que inclui as tags < html>, < head>, e < body>. A tag < html> envolve todo o conteúdo da página, < head> contém informações como o título da página, e  < body> contém o conteúdo visível.</p>
+                    <!DOCTYPE html>
+                    <html>
+                      <head>
+                        <title>Minha Página</title>
+                      </head>
+                      <body>
+                        <pre>
+                          &lt;!DOCTYPE html&gt;
+                          &lt;html&gt;
+                            &lt;head&gt;
+                              &lt;title&gt;Minha Página&lt;/title&gt;
+                            &lt;/head&gt;
+                            &lt;body&gt;
+                              &lt;!-- Conteúdo da Página --&gt;
+                            &lt;/body&gt;
+                          &lt;/html&gt;
+                        </pre>
+                      </body>
+                    </html>
+                    
+                    <strong>2. Tags e Elementos:</strong>
+        
+        As tags são elementos fundamentais do HTML. Elas envolvem e definem diferentes partes do conteúdo. Exemplos incluem < p> para parágrafos, < h1> para títulos, < a> para links, e assim por diante. <br/> <br/>
+        
+                <pre>
+                    &lt;Este é um parágrafo.&gt;
+                    &lt;Meu Título&gt;
+                    &lt;a href="https://www.exemplo.com">Link&lt;a&gt;
+        
+                </pre>
+        
+                <strong> 3. Atributos:</strong>
+               
+        As tags podem ter atributos que fornecem informações adicionais. Por exemplo, a tag < a> pode ter o atributo href para especificar o link de destino.
+        <pre>
+        
+        &lt;a&gt; href="https://www.exemplo.com">Link&lt;/a&gt;
+        </pre>
+        <strong>4. Comentários: </strong>
+        
+        Comentários são usados para adicionar notas no código HTML que não serão exibidas na página. Eles são úteis para documentação e explicação do código. <br/>
+        < !-- Este é um comentário HTML -- > <br/> <br/>
+        
+        <strong> 5. Listas: </strong>
+        
+        HTML suporta listas ordenadas (< ol>) e não ordenadas (< ul>), bem como elementos de lista (< li>).
+        
+        <pre>
+            &lt;ul&gt;
+              &lt;li&gt;Item 1&lt;/li&gt;
+              &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;ol&gt;
+              &lt;li&gt;Item A&lt;/li&gt;
+              &lt;li&gt;Item B&lt;/li&gt;
+            &lt;/ol&gt;
+          </pre>
+         <strong>7. Imagens:</strong> 
+
+A tag < img> é usada para incorporar imagens em uma página. O atributo src especifica o caminho da imagem.
+<pre>
+    &lt;img src="imagem.jpg" alt="Descrição da Imagem"&gt;
+
+</pre>
+ <strong>8. Formulários: </strong>
+
+Formulários são criados com a tag < form>. Elementos como < input>, < label>, e < button> são usados para coletar informações do usuário.
+<pre>
+    &lt;form&gt;
+    &lt;label for="nome">Nome:&lt;/label &gt; 
+    &lt;input type="text" id="nome" name="nome"&gt; 
+    &lt;button type="submit"&gt;Enviar&lt;/button&gt; 
+    &lt;/form&gt;      
+</pre>
+    </section>
+
+    <section id="ampliandoConhecimento">
+        <h2>HTML 2 - Ampliando Conhecimento</h2>
+        <p>Nesta seção, aprofundaremos nosso conhecimento em HTML.</p>
+
+
+    <strong>Entendendo HTML Semântico</strong>
+    <p>
+        HTML semântico é uma abordagem de codificação HTML que enfatiza o significado estrutural do conteúdo da página web em vez de apenas sua apresentação. Aqui estão alguns conceitos importantes:
+    </p>
+    <ul>
+        <li>A tag <code>&lt;header&gt;</code> representa um cabeçalho de seção ou de grupo de conteúdo e geralmente contém elementos como <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.</li>
+        <li>A tag <code>&lt;article&gt;</code> define uma seção de conteúdo independente e distribuível, como um post de blog ou uma notícia.</li>
+        <li>A tag <code>&lt;nav&gt;</code> representa uma seção de navegação na página.</li>
+        <li>A tag <code>&lt;footer&gt;</code> representa um rodapé para a seção ou página, muitas vezes contendo informações como dados de contato ou links relacionados.</li>
+    </ul>
+
+    <h2>HTML: Recursos Especiais</h2>
+    <p>
+        Além do HTML semântico, existem recursos especiais que podem melhorar a experiência do usuário e fornecer funcionalidades adicionais:
+    </p>
+    <ul>
+        <li>Os <code>&lt;a&gt;</code> (âncoras) podem não apenas criar links, mas também ser usados como marcadores de ancoragem para navegar para seções específicas de uma página.</li>
+        <li>Elementos <code>&lt;iframe&gt;</code> permitem incorporar conteúdo de outras páginas ou mídias em uma página web.</li>
+        <li>A tag <code>&lt;figure&gt;</code> é usada para envolver qualquer conteúdo que referencie uma imagem, gráfico, código, etc., enquanto <code>&lt;figcaption&gt;</code> fornece uma legenda para esse conteúdo.</li>
+        <li>A tag <code>&lt;details&gt;</code> cria um widget de divulgação que pode ser usado para ocultar informações menos importantes por padrão, exibindo-as apenas quando solicitado.</li>
+    </ul>
+
+    <p>
+        Estes são apenas alguns dos conceitos fundamentais de HTML semântico e recursos especiais. À medida que você explora mais, você descobrirá uma variedade de elementos e atributos HTML que podem ser aplicados de maneira eficaz para melhorar a estrutura e a funcionalidade das páginas web.
+    </p>
+    </section>
+
+</body>
+</html>
