@@ -1,15 +1,30 @@
 body {
   font-family: 'Times New Roman', Times, serif;
+  background-color: #bdd1c5;
+}
+.menu {
+  display: flex;
+  
 }
 
+.logo {
+  width: 7%;
+  height: 7%;
+  border-radius: 15px;
+
+}
+
+
 .img{
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
 }
 
 nav {
   background-color: #f8f8f8;
-  padding: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
 }
 
 nav ul {
@@ -33,7 +48,8 @@ section {
 }
 
 header {
-  background-color: #f0f0f0;
+  background-color: #bdd1c5;
+  border-radius: 15px;
   padding: 20px;
   text-align: center;
   position: relative;
@@ -44,16 +60,20 @@ header {
   width: 50%;
   margin: 20px auto;
   border-collapse: collapse;
+
+  
 }
 
 #tabhorario th, #tabhorario td{
   border: 1px solid #333;
   padding: 8px;
   text-align: center;
+
 }
 
 #tabhorario th{
   background-color: f2f2f2;
+
 }
 .contato{
   width: 20;
@@ -68,11 +88,18 @@ header {
 
 article {
   background-color: #fff;
+  border-radius: 15px;
   padding: 20px;
 }
 
 footer {
-  background-color: #f8f8f8;
+  background-color: #bdd1c5;
+  border-radius: 15px;
   padding: 10px;
   text-align: center;
+}
+
+.hor {
+  display: flex;
+  flex-direction: row-reverse;
 }
