@@ -1,0 +1,78 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.img{
+  width: 80%;
+  height: 80%;
+}
+
+nav {
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+#tabhorario{
+  
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+#tabhorario th, #tabhorario td{
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+
+#tabhorario th{
+  background-color: f2f2f2;
+}
+.contato{
+  width: 20;
+  height:20;
+
+}
+
+#contatotel {
+  width: 100%;
+  height: auto;
+}
+
+article {
+  background-color: #fff;
+  padding: 20px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+}
