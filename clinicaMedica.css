@@ -1,9 +1,12 @@
 body {
   font-family: 'Times New Roman', Times, serif;
+  text-decoration: solid;
   background-color: #bdd1c5;
 }
 .menu {
   display: flex;
+  align-items: center;
+  justify-content: center;
   
 }
 
@@ -11,6 +14,8 @@ body {
   width: 7%;
   height: 7%;
   border-radius: 15px;
+  position: absolute;
+  left: 31px;
 
 }
 
@@ -18,6 +23,8 @@ body {
 .img{
   width: 50%;
   height: 50%;
+  border-radius: 15px;
+
 }
 
 nav {
@@ -72,7 +79,7 @@ header {
 }
 
 #tabhorario th{
-  background-color: f2f2f2;
+  background-color: #f8f8f8;
 
 }
 .contato{
@@ -87,7 +94,7 @@ header {
 }
 
 article {
-  background-color: #fff;
+  background-color: #f8f8f8;
   border-radius: 15px;
   padding: 20px;
 }
